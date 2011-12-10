@@ -1,13 +1,13 @@
 ## Usage
 
-  git clone git://github.com/ancorcruz/vimfiles.git ~/.vim
-  cd ~/.vim
-  rake install
+    git clone git://github.com/ancorcruz/vimfiles.git ~/.vim
+    cd ~/.vim
+    rake install
 
 ### Updating
 
-  cd ~/.vim
-  rake update
+    cd ~/.vim
+    rake update
 
 
 ## Customization
