@@ -37,6 +37,12 @@ Wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 
 https://github.com/tpope/vim-endwise
 
+### Fugitive
+
+A Git wrapper so awesome.
+
+https://github.com/tpope/vim-fugitive
+
 ### NerdTree
 
 Tree explorer. Open with leader+p
