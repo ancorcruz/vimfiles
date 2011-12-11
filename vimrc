@@ -16,21 +16,29 @@ set wrap linebreak nolist
 set mouse=a
 set ttymouse=xterm2
 
-" Pathogen plugin
-call pathogen#infect()
-syntax on               " Enable syntax highlighting
-filetype on             " Enable filetype detection
-filetype indent on      " Enable filetype-specific indenting
-filetype plugin on      " Enable filetype-specific plugins
+" Tab completion options
+set wildmode=list:longest,list:full  "make cmdline tab completion similar to bash
+set complete=.,w,t
+set wildmenu                         "enable ctrl-n and ctrl-p to scroll thru matches
+set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,test/fixtures/*,vendor/gems/*,*~
 
-" Load solarized colorscheme
+" Key mappings
+silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
+
+" Pathogen plugin
+filetype off              " Needed so pathogen also loads ftdetect plugins.
+call pathogen#infect()
+call pathogen#helptags()
+syntax on                 " Enable syntax highlighting
+filetype on               " Enable filetype detection
+filetype indent on        " Enable filetype-specific indenting
+filetype plugin on        " Enable filetype-specific plugins
+
+" Load colorscheme
 set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
-
-" Key mappings
-silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
