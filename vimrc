@@ -1,9 +1,11 @@
-set number	        "add line numbers
+set number          "add line numbers
 set encoding=utf8   "use UTF8 encoding
 
 " Whitespace stuff
 set tabstop=2
 set softtabstop=2
+set shiftwidth=2
+set expandtab
 
 " Pathogen plugin
 call pathogen#infect()

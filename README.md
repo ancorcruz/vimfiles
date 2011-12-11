@@ -31,6 +31,11 @@ Makes it super easy to install plugins and runtime files in their own private di
 
 https://github.com/tpope/vim-pathogen
 
+### Solarized
+
+Precision colors for machines and people
+
+https://github.com/altercation/vim-colors-solarized
 
 ## Credits
 
