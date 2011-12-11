@@ -105,6 +105,15 @@ A colorscheme strangely reminiscent of Vibrant Ink for a certain OS X editor
 
 https://github.com/tpope/vim-vividchalk
 
+## ToDo
+
+* Add some mappings
+* Add snipets
+* Add friendly tab switching
+* Add friendly tab names
+* Add clean out trailing whitespaces and tabs
+* And more
+
 ## Credits
 
 Ancor Cruz's Vimfiles released under MIT License<br/>
