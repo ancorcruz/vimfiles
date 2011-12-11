@@ -71,6 +71,12 @@ https://github.com/vim-ruby/vim-ruby
 
 https://github.com/vim-ruby/vim-ruby/wiki
 
+### RVM
+
+Switch Ruby versions from inside Vim
+
+https://github.com/tpope/vim-rvm
+
 ### Solarized
 
 Precision colors for machines and people
