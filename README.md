@@ -1,3 +1,5 @@
+# Ancor Cruz's vim distribution
+
 ## Usage
 
     git clone git://github.com/ancorcruz/vimfiles.git ~/.vim
