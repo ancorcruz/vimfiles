@@ -5,6 +5,9 @@ set encoding=utf8   "use UTF8 encoding
 set nopaste         "paste mode on disable supertab plugin
 set ruler
 
+set incsearch       "find the next match as we type the search
+set hlsearch        "hilight searches by default
+
 " Whitespace stuff
 set tabstop=2
 set softtabstop=2
