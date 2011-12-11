@@ -1,3 +1,5 @@
+set nocompatible
+
 set number          "add line numbers
 set encoding=utf8   "use UTF8 encoding
 set paste
@@ -8,7 +10,16 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
-set wrap
+set wrap linebreak nolist
+
+" Some stuff to get the mouse going in term
+set mouse=a
+set ttymouse=xterm2
+
+" Turn on syntax highlighting
+syntax enable
+
+
 
 " Pathogen plugin
 call pathogen#infect()
@@ -23,7 +34,7 @@ let g:solarized_termcolors=256
 colorscheme solarized
 
 
-
+" Key mappings
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
 
