@@ -37,6 +37,14 @@ Makes it super easy to install plugins and runtime files in their own private di
 
 https://github.com/tpope/vim-pathogen
 
+### Rails
+
+Rails support for vim
+
+https://github.com/tpope/vim-rails
+
+http://www.vim.org/scripts/script.php?script_id=1567
+
 ### Solarized
 
 Precision colors for machines and people

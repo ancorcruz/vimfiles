@@ -6,3 +6,7 @@
 	path   = bundle/nerdtree
 	url    = https://github.com/scrooloose/nerdtree.git
   ignore = dirty
+[submodule "bundle/vim-rails"]
+	path   = bundle/vim-rails
+	url    = https://github.com/tpope/vim-rails.git
+  ignore = dirty
