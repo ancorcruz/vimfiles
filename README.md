@@ -73,6 +73,12 @@ http://www.vim.org/scripts/script.php?script_id=1643
 
 https://github.com/ervandew/supertab
 
+### Vividchalk
+
+A colorscheme strangely reminiscent of Vibrant Ink for a certain OS X editor
+
+https://github.com/tpope/vim-vividchalk
+
 ## Credits
 
 Ancor Cruz's Vimfiles released under MIT License<br/>

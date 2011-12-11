@@ -3,22 +3,26 @@
   url    = https://github.com/altercation/vim-colors-solarized.git
   ignore = dirty
 [submodule "bundle/nerdtree"]
-	path   = bundle/nerdtree
-	url    = https://github.com/scrooloose/nerdtree.git
+  path   = bundle/nerdtree
+  url    = https://github.com/scrooloose/nerdtree.git
   ignore = dirty
 [submodule "bundle/vim-rails"]
-	path   = bundle/vim-rails
-	url    = https://github.com/tpope/vim-rails.git
+  path   = bundle/vim-rails
+  url    = https://github.com/tpope/vim-rails.git
   ignore = dirty
 [submodule "bundle/supertab"]
-	path   = bundle/supertab
-	url    = https://github.com/ervandew/supertab.git
+  path   = bundle/supertab
+  url    = https://github.com/ervandew/supertab.git
   ignore = dirty
 [submodule "bundle/endwise"]
-	path   = bundle/endwise
-	url    = https://github.com/tpope/vim-endwise.git
+  path   = bundle/endwise
+  url    = https://github.com/tpope/vim-endwise.git
   ignore = dirty
 [submodule "bundle/vim-ruby"]
-	path   = bundle/vim-ruby
-	url    = https://github.com/vim-ruby/vim-ruby.git
+  path   = bundle/vim-ruby
+  url    = https://github.com/vim-ruby/vim-ruby.git
+  ignore = dirty
+[submodule "bundle/vividchalk"]
+  path   = bundle/vividchalk
+  url    = https://github.com/tpope/vim-vividchalk.git
   ignore = dirty
