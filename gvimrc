@@ -1,8 +1,8 @@
-" Start without the toolbar
-set guioptions=aAce
+set guioptions=aAce     " Start without the toolbar
+set guioptions+=c       " Use console dialogs
 
-" Use console dialogs
-set guioptions+=c
+set guifont=DejaVu\ Sans\ Mono\ 11
+colorscheme solarized
 
 " Include user's local vim config
 if filereadable(expand("~/.gvimrc.local"))
