@@ -25,6 +25,12 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 
 ## Bundled plugins
 
+### delimitMate
+
+Provides insert mode auto-completion for quotes, parens, brackets, etc
+
+https://github.com/Raimondi/delimitMate
+
 ### Endwise
 
 Wisely add "end" in ruby, endfunction/endif/more in vim script, etc
