@@ -26,3 +26,7 @@
   path   = bundle/vividchalk
   url    = https://github.com/tpope/vim-vividchalk.git
   ignore = dirty
+[submodule "bundle/syntastic"]
+  path   = bundle/syntastic
+  url    = https://github.com/scrooloose/syntastic.git
+  ignore = dirty

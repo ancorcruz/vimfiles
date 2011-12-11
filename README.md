@@ -73,6 +73,14 @@ http://www.vim.org/scripts/script.php?script_id=1643
 
 https://github.com/ervandew/supertab
 
+### Syntastic
+
+Syntax checking hacks for vim
+
+https://github.com/scrooloose/syntastic/
+
+http://www.vim.org/scripts/script.php?script_id=2736
+
 ### Vividchalk
 
 A colorscheme strangely reminiscent of Vibrant Ink for a certain OS X editor
