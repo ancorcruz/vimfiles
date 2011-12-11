@@ -25,6 +25,12 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 
 ## Bundled plugins
 
+### NerdTree
+
+Tree explorer. Open with leader+p
+
+http://www.vim.org/scripts/script.php?script_id=1658
+
 ### Pathogen
 
 Makes it super easy to install plugins and runtime files in their own private directories.

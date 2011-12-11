@@ -22,6 +22,12 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
+
+
+silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
+
+
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
