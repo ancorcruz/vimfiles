@@ -2,6 +2,7 @@ set guioptions=aAce     " Start without the toolbar
 set guioptions+=c       " Use console dialogs
 
 set guifont=DejaVu\ Sans\ Mono\ 11
+set linespace=1
 
 " Include user's local vim config
 if filereadable(expand("~/.gvimrc.local"))
