@@ -51,6 +51,14 @@ Precision colors for machines and people
 
 https://github.com/altercation/vim-colors-solarized
 
+### Supertab
+
+Pseudo auto-complete with tab
+
+http://www.vim.org/scripts/script.php?script_id=1643
+
+https://github.com/ervandew/supertab
+
 ## Credits
 
 Ancor Cruz's Vimfiles released under MIT License<br/>

@@ -2,7 +2,7 @@ set nocompatible
 
 set number          "add line numbers
 set encoding=utf8   "use UTF8 encoding
-set paste
+set nopaste         "paste mode on disable supertab plugin
 set ruler
 
 " Whitespace stuff

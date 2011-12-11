@@ -10,3 +10,7 @@
 	path   = bundle/vim-rails
 	url    = https://github.com/tpope/vim-rails.git
   ignore = dirty
+[submodule "bundle/supertab"]
+	path   = bundle/supertab
+	url    = https://github.com/ervandew/supertab.git
+  ignore = dirty
