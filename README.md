@@ -25,6 +25,12 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 
 ## Bundled plugins
 
+### Endwise
+
+Wisely add "end" in ruby, endfunction/endif/more in vim script, etc
+
+https://github.com/tpope/vim-endwise
+
 ### NerdTree
 
 Tree explorer. Open with leader+p
