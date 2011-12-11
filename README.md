@@ -4,6 +4,14 @@
     cd ~/.vim
     rake install
 
+### Helptags
+
+To generate tags at first usage of vim invoke:
+
+    :Helptags
+
+This makes all plugins documentations available thru :help
+
 ### Updating
 
     cd ~/.vim
@@ -13,6 +21,15 @@
 ## Customization
 
 Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
+
+
+## Bundled plugins
+
+### Pathogen
+
+Makes it super easy to install plugins and runtime files in their own private directories.
+
+https://github.com/tpope/vim-pathogen
 
 
 ## Credits
