@@ -51,6 +51,14 @@ https://github.com/tpope/vim-rails
 
 http://www.vim.org/scripts/script.php?script_id=1567
 
+### Ruby
+
+Ruby support for vim
+
+https://github.com/vim-ruby/vim-ruby
+
+https://github.com/vim-ruby/vim-ruby/wiki
+
 ### Solarized
 
 Precision colors for machines and people
