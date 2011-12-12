@@ -25,6 +25,17 @@ This makes all plugins documentations available thru :help
 Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 
 
+## Mappings
+
+* Leader + p  => Toggle NERDTree
+* Leader + c  => Clean out all trailing whitespace or tabs
+* Tab         => Next tab
+* Shift + Tab => Previous tab
+* Alt + (1-9) => Switch tabs
+* Ctrl + n    => New tab
+
+(Leader = \\)
+
 ## Bundled plugins
 
 ### delimitMate
@@ -111,9 +122,6 @@ https://github.com/tpope/vim-vividchalk
 
 * Add some mappings
 * Add snipets
-* Add friendly tab switching
-* Add friendly tab names
-* Add clean out trailing whitespaces and tabs
 * And more
 
 ## Credits

@@ -6,7 +6,7 @@ set nopaste         "paste mode on disable supertab plugin
 set ruler
 
 set incsearch       "find the next match as we type the search
-set hlsearch        "hilight searches by default
+set hlsearch        "highlight searches by default
 
 " Whitespace stuff
 set tabstop=2
@@ -15,6 +15,9 @@ set shiftwidth=2
 set expandtab
 set showbreak=...
 set wrap linebreak nolist
+
+" Highlight extra whitespace
+set list listchars=tab:..,trail:·
 
 " Some stuff to get the mouse going in term
 set mouse=a
@@ -41,7 +44,17 @@ set statusline+=\ %P                      "percent through file
 set laststatus=2
 
 " Key mappings
+
+" Toggle NERDTree
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
+
+" Clean out all trailing whitespace or tabs
+nnoremap <silent> <Leader>c :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:retab<CR>
+
+" Tab navigation
+nnoremap <c-n> :tabnew<CR>
+nmap <Tab> gt
+nmap <S-Tab> gT
 
 " Pathogen plugin
 filetype off              " Needed so pathogen also loads ftdetect plugins.
