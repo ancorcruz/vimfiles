@@ -29,6 +29,7 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 
 * Leader + p  => Toggle NERDTree
 * Leader + c  => Clean out all trailing whitespace or tabs
+* Leader + t  => Open Command-t dialog
 * Tab         => Next tab
 * Shift + Tab => Previous tab
 * Alt + (1-9) => Switch tabs
@@ -37,6 +38,14 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 (Leader = \\)
 
 ## Bundled plugins
+
+### Command-t
+
+The Command-T plug-in for VIM provides an extremely fast, intuitive mechanism for opening files with a minimal number of keystrokes. It's named "Command-T" because it is inspired by the "Go to File" window bound to Command-T in TextMate.
+
+https://github.com/wincent/Command-T
+
+http://www.vim.org/scripts/script.php?script_id=3025
 
 ### delimitMate
 
