@@ -1,9 +1,11 @@
 set guioptions=aAce     " Start without the toolbar
 set guioptions-=T       " No toolbar
 set guioptions+=c       " Use console dialogs
+set showtabline=2       " Show the tabsbar always
 
-set guifont=DejaVu\ Sans\ Mono\ 11
 set linespace=1
+
+colorscheme vilight
 
 " Setup tab labels with tab number, buffer name, number of windows
 function! GuiTabLabel()
@@ -70,29 +72,58 @@ function! GuiTabToolTip()
 endfunction
 set guitabtooltip=%{GuiTabToolTip()}
 
-" Key mappings
 
-" Alt-# to switch tabs
-map  <A-0> 0gt
-imap <A-0> <Esc>0gt
-map  <A-1> 1gt
-imap <A-1> <Esc>1gt
-map  <A-2> 2gt
-imap <A-2> <Esc>2gt
-map  <A-3> 3gt
-imap <A-3> <Esc>3gt
-map  <A-4> 4gt
-imap <A-4> <Esc>4gt
-map  <A-5> 5gt
-imap <A-5> <Esc>5gt
-map  <A-6> 6gt
-imap <A-6> <Esc>6gt
-map  <A-7> 7gt
-imap <A-7> <Esc>7gt
-map  <A-8> 8gt
-imap <A-8> <Esc>8gt
-map  <A-9> 9gt
-imap <A-9> <Esc>9gt
+if has("gui_macvim")
+  set guifont=Monaco:h14
+
+  " Key mappings
+  " Command-# to switch tabs
+  map  <D-0> 0gt
+  imap <D-0> <Esc>0gt
+  map  <D-1> 1gt
+  imap <D-1> <Esc>1gt
+  map  <D-2> 2gt
+  imap <D-2> <Esc>2gt
+  map  <D-3> 3gt
+  imap <D-3> <Esc>3gt
+  map  <D-4> 4gt
+  imap <D-4> <Esc>4gt
+  map  <D-5> 5gt
+  imap <D-5> <Esc>5gt
+  map  <D-6> 6gt
+  imap <D-6> <Esc>6gt
+  map  <D-7> 7gt
+  imap <D-7> <Esc>7gt
+  map  <D-8> 8gt
+  imap <D-8> <Esc>8gt
+  map  <D-9> 9gt
+  imap <D-9> <Esc>9gt
+else
+  set guifont=DejaVu\ Sans\ Mono\ 14
+
+  " Key mappings
+  " Alt-# to switch tabs
+  map  <A-0> 0gt
+  imap <A-0> <Esc>0gt
+  map  <A-1> 1gt
+  imap <A-1> <Esc>1gt
+  map  <A-2> 2gt
+  imap <A-2> <Esc>2gt
+  map  <A-3> 3gt
+  imap <A-3> <Esc>3gt
+  map  <A-4> 4gt
+  imap <A-4> <Esc>4gt
+  map  <A-5> 5gt
+  imap <A-5> <Esc>5gt
+  map  <A-6> 6gt
+  imap <A-6> <Esc>6gt
+  map  <A-7> 7gt
+  imap <A-7> <Esc>7gt
+  map  <A-8> 8gt
+  imap <A-8> <Esc>8gt
+  map  <A-9> 9gt
+  imap <A-9> <Esc>9gt
+endif
 
 " Include user's local vim config
 if filereadable(expand("~/.gvimrc.local"))

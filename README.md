@@ -32,8 +32,10 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 * Leader + t  => Open Command-t dialog
 * Tab         => Next tab
 * Shift + Tab => Previous tab
-* Alt + (1-9) => Switch tabs
 * Ctrl + n    => New tab
+
+* Command + (1-9) => Switch tabs (MacVim)
+* Alt + (1-9) => Switch tabs (gVim)
 
 (Leader = \\)
 

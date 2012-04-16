@@ -56,6 +56,9 @@ nnoremap <c-n> :tabnew<CR>
 nmap <Tab> gt
 nmap <S-Tab> gT
 
+" Remove search highlighting
+nnoremap <silent> <return> :nohl<CR>
+
 " Pathogen plugin
 filetype off              " Needed so pathogen also loads ftdetect plugins.
 call pathogen#infect()
