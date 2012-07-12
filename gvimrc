@@ -5,7 +5,7 @@ set showtabline=2       " Show the tabsbar always
 
 set linespace=1
 
-colorscheme vilight
+colorscheme Tomorrow-Night-Eighties
 
 " Setup tab labels with tab number, buffer name, number of windows
 function! GuiTabLabel()

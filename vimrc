@@ -45,6 +45,8 @@ set laststatus=2
 
 " Key mappings
 
+:let mapleader=","
+
 " Toggle NERDTree
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 

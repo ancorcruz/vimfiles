@@ -38,7 +38,7 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 * Command + (1-9) => Switch tabs (MacVim)
 * Alt + (1-9) => Switch tabs (gVim)
 
-(Leader = \\)
+(Leader = ,)
 
 ## Bundled plugins
 
