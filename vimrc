@@ -76,6 +76,11 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
+" Ctrl-P plugin
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_map = '<Leader>t'
+
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
