@@ -42,7 +42,3 @@
   path   = bundle/vim-rvm
   url    = https://github.com/tpope/vim-rvm.git
   ignore = dirty
-[submodule "bundle/command-t"]
-  path   = bundle/command-t
-  url    = https://github.com/wincent/command-t.git
-  ignore = dirty
