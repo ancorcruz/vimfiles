@@ -5,6 +5,8 @@ set encoding=utf8   "use UTF8 encoding
 set nopaste         "paste mode on disable supertab plugin
 set ruler
 
+set colorcolumn=80  "show vertical line at 80 chars
+
 set incsearch       "find the next match as we type the search
 set hlsearch        "highlight searches by default
 
