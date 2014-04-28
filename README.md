@@ -35,6 +35,8 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 * Ctrl + n    => New tab
 * Enter       => Remove search highlighting
 
+* Leader + j  => Pretty format JSON file
+
 * Command + (1-9) => Switch tabs (MacVim)
 * Alt + (1-9) => Switch tabs (gVim)
 

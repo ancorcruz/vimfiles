@@ -119,6 +119,9 @@ map! <kPlus> +
 map! <Esc>OS -
 map! <Esc>OM <CR>
 
+" format JSON files
+map <Leader>j :%!python -m json.tool<CR>
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
