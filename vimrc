@@ -25,6 +25,9 @@ set list listchars=tab:..,trail:·
 set mouse=a
 set ttymouse=xterm2
 
+" Share clipboard between vim and OSX
+set clipboard=unnamed
+
 " Tab completion options
 set wildmode=list:longest,list:full  "make cmdline tab completion similar to bash
 set complete=.,w,t
