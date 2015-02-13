@@ -86,7 +86,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_map = '<Leader>t'
 
 " treat question marks as part of a word in ruby
- autocmd BufRead *.rb,*.rake,*.rhtml,<ruby> set isk=?,@,48-57,_,192-255
+autocmd BufRead *.rb,*.rake,*.rhtml,<ruby> set isk=?,@,48-57,_,192-255
 
 " make external keypad work in terminal vim OSX!
 map <Esc>Oq 1
