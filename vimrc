@@ -5,6 +5,7 @@ set relativenumber  "enable relative line numbers
 set encoding=utf8   "use UTF8 encoding
 set nopaste         "paste mode on disable supertab plugin
 set ruler
+set cursorline      "highlight current line
 
 set colorcolumn=80  "show vertical line at 80 chars
 
