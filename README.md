@@ -35,6 +35,8 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 * Ctrl + n    => New tab
 * Enter       => Remove search highlighting
 
+* Leader + n  => Toggle relative line numbers
+
 * Leader + j  => Pretty format JSON file
 
 * Leader + yf => Copy filename absolute path to the system clipboard

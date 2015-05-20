@@ -1,6 +1,7 @@
 set nocompatible    " We're running Vim, not Vi!
 
 set number          "add line numbers
+set relativenumber  "enable relative line numbers
 set encoding=utf8   "use UTF8 encoding
 set nopaste         "paste mode on disable supertab plugin
 set ruler
@@ -65,6 +66,9 @@ nmap <S-Tab> gT
 
 " Remove search highlighting
 nnoremap <silent> <return> :nohl<CR>
+
+" Toggle relative line numbers
+nnoremap <silent> <Leader>n :set rnu! rnu?<CR>
 
 " Pathogen plugin
 filetype off              " Needed so pathogen also loads ftdetect plugins.
