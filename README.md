@@ -37,6 +37,8 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 
 * Leader + j  => Pretty format JSON file
 
+* Leader + yf => Copy filename absolute path to the system clipboard
+
 * Command + (1-9) => Switch tabs (MacVim)
 * Alt + (1-9) => Switch tabs (gVim)
 
