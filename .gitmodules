@@ -46,3 +46,7 @@
   path   = bundle/ctrlp.vim
   url    = https://github.com/kien/ctrlp.vim.git
   ignore = dirty
+[submodule "bundle/vim-coffee-script"]
+  path   = bundle/vim-coffee-script
+  url    = git://github.com/vim-scripts/vim-coffee-script.git
+  ignore = dirty
