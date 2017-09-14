@@ -134,6 +134,14 @@ A colorscheme strangely reminiscent of Vibrant Ink for a certain OS X editor
 
 https://github.com/tpope/vim-vividchalk
 
+### Gitgutter
+
+A Vim plugin which shows a git diff in the 'gutter' (sign column). It shows
+whether each line has been added, modified, and where lines have been removed.
+You can also stage and undo individual hunks.
+
+https://github.com/airblade/vim-gitgutter
+
 ## ToDo
 
 * Add some mappings

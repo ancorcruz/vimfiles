@@ -1,5 +1,6 @@
 set nocompatible    " We're running Vim, not Vi!
 
+set updatetime=250  "reduce update time from 4s to 250ms
 set number          "add line numbers
 set relativenumber  "enable relative line numbers
 set encoding=utf8   "use UTF8 encoding
