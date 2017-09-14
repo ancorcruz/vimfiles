@@ -50,3 +50,7 @@
   path   = bundle/vim-coffee-script
   url    = git://github.com/vim-scripts/vim-coffee-script.git
   ignore = dirty
+[submodule "bundle/vim-gitgutter"]
+  path   = bundle/vim-gitgutter
+  url    = git@github.com:airblade/vim-gitgutter.git
+  ignore = dirty
