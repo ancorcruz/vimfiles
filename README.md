@@ -48,6 +48,10 @@ Add your local customizations in ~/.vimrc.local and ~/.gvimrc.local
 
 ## Bundled plugins
 
+### Polyglot
+
+A collection of language packs for Vim.
+
 ### Ctrl-P
 
 The Ctrl-P plug-in for VIM provides an extremely fast, intuitive mechanism for opening files with a minimal number of keystrokes.

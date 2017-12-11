@@ -54,3 +54,7 @@
   path   = bundle/vim-gitgutter
   url    = git@github.com:airblade/vim-gitgutter.git
   ignore = dirty
+[submodule "bundle/vim-polyglot"]
+  path   = bundle/vim-polyglot
+  url    = https://github.com/sheerun/vim-polyglot.git
+  ignore = dirty
