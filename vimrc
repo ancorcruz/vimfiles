@@ -90,6 +90,7 @@ colorscheme solarized
 " Ctrl-P plugin
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_map = '<Leader>t'
+let g:ctrlp_custom_ignore = { 'dir':  '\v[\/](node_modules)$' }
 
 " treat question marks as part of a word in ruby
 autocmd BufRead *.rb,*.rake,*.rhtml,<ruby> set isk=?,@,48-57,_,192-255
