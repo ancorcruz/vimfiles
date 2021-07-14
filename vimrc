@@ -84,6 +84,8 @@ filetype on               " Enable filetype detection
 filetype indent on        " Enable filetype-specific indenting
 filetype plugin on        " Enable filetype-specific plugins
 
+au BufNewFile,BufRead *.asvc set filetype=json
+
 " Load colorscheme
 set t_Co=256
 set background=dark
