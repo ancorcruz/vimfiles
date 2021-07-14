@@ -26,7 +26,10 @@ set list listchars=tab:..,trail:·
 
 " Some stuff to get the mouse going in term
 set mouse=a
-set ttymouse=xterm2
+
+if !has('nvim')
+  set ttymouse=xterm2
+endif
 
 " Share clipboard between vim and OSX
 set clipboard=unnamed
@@ -138,4 +141,9 @@ nnoremap <Leader>yf :let @*=expand("%:p")<cr>:echo "Copied file name to clipboar
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
+endif
+
+
+" NeoVim specific config items
+if has('nvim')
 endif
