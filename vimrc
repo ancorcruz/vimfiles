@@ -47,7 +47,7 @@ set statusline+=%y                        "filetype
 set statusline+=%{encoding}               "encoding
 set statusline+=%{fugitive#statusline()}  "git branch
 set statusline+=%m                        "modified flag
-set statusline+=%{rvm#statusline()}       "rvm
+"set statusline+=%{rvm#statusline()}       "rvm
 set statusline+=%=                        "left/right separator
 set statusline+=%c,                       "cursor column
 set statusline+=%l/%L                     "cursor line/total lines
