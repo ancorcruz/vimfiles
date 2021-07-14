@@ -138,12 +138,11 @@ map <Leader>j :%!python -m json.tool<CR>
 " Copy current filename to system clipboard
 nnoremap <Leader>yf :let @*=expand("%:p")<cr>:echo "Copied file name to clipboard"<cr>
 
+" NeoVim specific config items
+if has('nvim')
+endif
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
-endif
-
-
-" NeoVim specific config items
-if has('nvim')
 endif
