@@ -62,3 +62,6 @@
   path   = bundle/ack.vim
   url    = https://github.com/mileszs/ack.vim.git
   ignore = dirty
+[submodule "bundle/vim-easy-align"]
+	path = bundle/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git

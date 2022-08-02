@@ -152,6 +152,13 @@ Run your favorite search tool from Vim, with an enhanced results list.
 
 https://github.com/mileszs/ack.vim
 
+### vim-easy-align
+
+A simple, easy-to-use Vim alignment plugin.
+
+https://github.com/junegunn/vim-easy-align
+
+
 ## ToDo
 
 * Add some mappings
