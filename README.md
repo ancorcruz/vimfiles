@@ -146,6 +146,12 @@ You can also stage and undo individual hunks.
 
 https://github.com/airblade/vim-gitgutter
 
+### ack
+
+Run your favorite search tool from Vim, with an enhanced results list.
+
+https://github.com/mileszs/ack.vim
+
 ## ToDo
 
 * Add some mappings

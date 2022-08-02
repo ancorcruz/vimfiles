@@ -140,6 +140,15 @@ map <Leader>j :%!python -m json.tool<CR>
 " Copy current filename to system clipboard
 nnoremap <Leader>yf :let @*=expand("%:p")<cr>:echo "Copied file name to clipboard"<cr>
 
+" Use Ag (the silver surfer) with ACK
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep --smart-case'
+  cnoreabbrev ag Ack
+  cnoreabbrev aG Ack
+  cnoreabbrev Ag Ack
+  cnoreabbrev AG Ack
+endif
+
 " NeoVim specific config items
 if has('nvim')
 endif

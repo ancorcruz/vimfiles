@@ -58,3 +58,7 @@
   path   = bundle/vim-polyglot
   url    = https://github.com/sheerun/vim-polyglot.git
   ignore = dirty
+[submodule "ack.vim"]
+  path   = bundle/ack.vim
+  url    = https://github.com/mileszs/ack.vim.git
+  ignore = dirty
