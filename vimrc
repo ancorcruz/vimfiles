@@ -20,6 +20,7 @@ set shiftwidth=2
 set expandtab
 set showbreak=...
 set wrap linebreak nolist
+set smartindent
 
 " Highlight extra whitespace
 set list listchars=tab:..,trail:·
@@ -96,6 +97,10 @@ colorscheme solarized
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_map = '<Leader>t'
 let g:ctrlp_custom_ignore = { 'dir':  '\v[\/](node_modules)$' }
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
 
 " treat question marks as part of a word in ruby
 autocmd BufRead *.rb,*.rake,*.rhtml,<ruby> set isk=?,@,48-57,_,192-255

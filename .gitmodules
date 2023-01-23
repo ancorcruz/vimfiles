@@ -1,5 +1,5 @@
-[submodule "bundle/solarized"]
-  path   = bundle/solarized
+[submodule "bundle/vim-colors-solarized"]
+  path   = bundle/vim-colors-solarized
   url    = https://github.com/altercation/vim-colors-solarized.git
   ignore = dirty
 [submodule "bundle/nerdtree"]
@@ -58,10 +58,15 @@
   path   = bundle/vim-polyglot
   url    = https://github.com/sheerun/vim-polyglot.git
   ignore = dirty
-[submodule "ack.vim"]
+[submodule "bundle/ack.vim"]
   path   = bundle/ack.vim
   url    = https://github.com/mileszs/ack.vim.git
   ignore = dirty
 [submodule "bundle/vim-easy-align"]
-	path = bundle/vim-easy-align
-	url = https://github.com/junegunn/vim-easy-align.git
+  path   = bundle/vim-easy-align
+  url    = https://github.com/junegunn/vim-easy-align.git
+  ignore = dirty
+[submodule "bundle/vim-surround"]
+  path   = bundle/vim-surround
+  url    = https://github.com/tpope/vim-surround.git
+  ignore = dirty
